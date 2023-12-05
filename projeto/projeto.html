@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projeto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="INFOCURSO.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+    <p class="w3-text-grey">Projeto</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#introdução" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>INTRODUÇÃO</a> 
+    <a href="#sobre" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>SOBRE NÓS</a> 
+    <a href="#contatos" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATOS</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:300px">
+
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Meus cursos</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">Tudo</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Cursos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Valores</button>
+    </div>
+    </div>
+  </header>
+  
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="logo.html.png" alt="PAGO" style="width:50%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>HTML</b></p>
+        <p>é uma linguagem de marcação utilizada
+        na construção de páginas na Web. 
+        Documentos HTML podem ser interpretados por navegadores.</p>
+        <span><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiW8qXZ1tyCAxWFAa0GHRnyCw0YABACGgJwdg&ase=2&gclid=CjwKCAiAsIGrBhAAEiwAEzMlC_VYcMMpiyWCZyEEVHDxo0T0HZ9fdJYvCnQEc0fROziz1toQSHEZyhoCsI4QAvD_BwE&ohost=www.google.com&cid=CAESV-D2Gti63G5dmxlz3Nlyc6kkC4HsR9vqq2j_sID7FbHNMfF25DXWBsSRnSOcso2be2Rl5HhgPCrU1r-Bq_4GaNZTaWNc6Bq5kMf9SYqzyExUPbMfEuhTdw&sig=AOD64_3dgEQUsF0QXZ0uXLgUzL8awp6pMg&q&nis=4&adurl&ved=2ahUKEwiWwpzZ1tyCAxVtK7kGHUiVB5AQ0Qx6BAgHEAE" target="_blank">CLIQUE AQUI</a></span>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="css.png" alt="PAGO" style="width:35%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>CSS</b></p>
+        <p>é um mecanismo para adicionar estilos a uma
+            página web, aplicado diretamente nas tags HTML ou 
+            ficar contido dentro das tags style.</p>
+            <span><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiW8qXZ1tyCAxWFAa0GHRnyCw0YABACGgJwdg&ase=2&gclid=CjwKCAiAsIGrBhAAEiwAEzMlC_VYcMMpiyWCZyEEVHDxo0T0HZ9fdJYvCnQEc0fROziz1toQSHEZyhoCsI4QAvD_BwE&ohost=www.google.com&cid=CAESV-D2Gti63G5dmxlz3Nlyc6kkC4HsR9vqq2j_sID7FbHNMfF25DXWBsSRnSOcso2be2Rl5HhgPCrU1r-Bq_4GaNZTaWNc6Bq5kMf9SYqzyExUPbMfEuhTdw&sig=AOD64_3dgEQUsF0QXZ0uXLgUzL8awp6pMg&q&nis=4&adurl&ved=2ahUKEwiWwpzZ1tyCAxVtK7kGHUiVB5AQ0Qx6BAgHEAE" target="_blank">CLIQUE AQUI</a></span>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="javascript.png" alt="PAGO" style="width:95%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>JavaScript</b></p>
+        <p> Juntamente com HTML e CSS, o JavaScript é uma das
+            três principais tecnologias da World Wide Web.
+        </p>
+        <span><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiW8qXZ1tyCAxWFAa0GHRnyCw0YABACGgJwdg&ase=2&gclid=CjwKCAiAsIGrBhAAEiwAEzMlC_VYcMMpiyWCZyEEVHDxo0T0HZ9fdJYvCnQEc0fROziz1toQSHEZyhoCsI4QAvD_BwE&ohost=www.google.com&cid=CAESV-D2Gti63G5dmxlz3Nlyc6kkC4HsR9vqq2j_sID7FbHNMfF25DXWBsSRnSOcso2be2Rl5HhgPCrU1r-Bq_4GaNZTaWNc6Bq5kMf9SYqzyExUPbMfEuhTdw&sig=AOD64_3dgEQUsF0QXZ0uXLgUzL8awp6pMg&q&nis=4&adurl&ved=2ahUKEwiWwpzZ1tyCAxVtK7kGHUiVB5AQ0Qx6BAgHEAE" target="_blank">CLIQUE AQUI</a></span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="c.png" alt="PAGO" style="width:50%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>C++</b></p>
+        <p>Desde os anos 1990 é uma das linguagens comerciais 
+            mais populares, sendo bastante usada também na academia 
+            por seu grande desempenho e base de utilizadores.</p>
+            <span><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiW8qXZ1tyCAxWFAa0GHRnyCw0YABACGgJwdg&ase=2&gclid=CjwKCAiAsIGrBhAAEiwAEzMlC_VYcMMpiyWCZyEEVHDxo0T0HZ9fdJYvCnQEc0fROziz1toQSHEZyhoCsI4QAvD_BwE&ohost=www.google.com&cid=CAESV-D2Gti63G5dmxlz3Nlyc6kkC4HsR9vqq2j_sID7FbHNMfF25DXWBsSRnSOcso2be2Rl5HhgPCrU1r-Bq_4GaNZTaWNc6Bq5kMf9SYqzyExUPbMfEuhTdw&sig=AOD64_3dgEQUsF0QXZ0uXLgUzL8awp6pMg&q&nis=4&adurl&ved=2ahUKEwiWwpzZ1tyCAxVtK7kGHUiVB5AQ0Qx6BAgHEAE" target="_blank">CLIQUE AQUI</a></span>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="python.2.png" alt="PAGO" style="width:50%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Python</b></p>
+        <p>Python é uma linguagem de programação de alto nível, 
+            interpretada de script, imperativa, orientada a objetos, 
+            funcional, de tipagem dinâmica e forte.</p>
+            <span><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiW8qXZ1tyCAxWFAa0GHRnyCw0YABACGgJwdg&ase=2&gclid=CjwKCAiAsIGrBhAAEiwAEzMlC_VYcMMpiyWCZyEEVHDxo0T0HZ9fdJYvCnQEc0fROziz1toQSHEZyhoCsI4QAvD_BwE&ohost=www.google.com&cid=CAESV-D2Gti63G5dmxlz3Nlyc6kkC4HsR9vqq2j_sID7FbHNMfF25DXWBsSRnSOcso2be2Rl5HhgPCrU1r-Bq_4GaNZTaWNc6Bq5kMf9SYqzyExUPbMfEuhTdw&sig=AOD64_3dgEQUsF0QXZ0uXLgUzL8awp6pMg&q&nis=4&adurl&ved=2ahUKEwiWwpzZ1tyCAxVtK7kGHUiVB5AQ0Qx6BAgHEAE" target="_blank">CLIQUE AQUI</a></span>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="logo.sql.png" alt="PAGO" style="width:55%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>SQL</b></p>
+        <p>é uma linguagem de domínio específico desenvolvida 
+            para gerenciar dados relacionais em um sistema de 
+            gerenciamento de banco de dados</p>
+            <span><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiW8qXZ1tyCAxWFAa0GHRnyCw0YABACGgJwdg&ase=2&gclid=CjwKCAiAsIGrBhAAEiwAEzMlC_VYcMMpiyWCZyEEVHDxo0T0HZ9fdJYvCnQEc0fROziz1toQSHEZyhoCsI4QAvD_BwE&ohost=www.google.com&cid=CAESV-D2Gti63G5dmxlz3Nlyc6kkC4HsR9vqq2j_sID7FbHNMfF25DXWBsSRnSOcso2be2Rl5HhgPCrU1r-Bq_4GaNZTaWNc6Bq5kMf9SYqzyExUPbMfEuhTdw&sig=AOD64_3dgEQUsF0QXZ0uXLgUzL8awp6pMg&q&nis=4&adurl&ved=2ahUKEwiWwpzZ1tyCAxVtK7kGHUiVB5AQ0Qx6BAgHEAE" target="_blank">CLIQUE AQUI</a></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Sobre nós</b></h4>
+<p>
+    Somos alunos do 2° ano do curso de Informática para Internet. 
+    <br><span><a href="https://www.instagram.com/ryanmartinsszz/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Ryan</a></span> tem 17 anos, <span><a href="https://www.instagram.com/debinhaz_/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Débora</a></span> tem 16 anos e <span><a href="https://www.instagram.com/kayque_ooff/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Kayque</a></span> tem 17 anos.</br>
+</p>
+    
+    <h4>O que você precisa saber.</h4>
+    
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Curso Básico</li>
+          <li class="w3-padding-16">HTML</li>
+          <li class="w3-padding-16">CSS</li>
+          <li class="w3-padding-16">JAVASCRIPT</li>
+          <li class="w3-padding-16">C++</li>
+          <li class="w3-padding-16">PYTHON</li>
+          <li class="w3-padding-16">SQL</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">por mês</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Compre já!</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32">Curso Avançado</li>
+          <li class="w3-padding-16">HTML</li>
+          <li class="w3-padding-16">CSS</li>
+          <li class="w3-padding-16">JAVASCRIPT</li>
+          <li class="w3-padding-16">C++</li>
+          <li class="w3-padding-16">PYTHON</li>
+          <li class="w3-padding-16">SQL</li>
+          <li class="w3-padding-16">
+            <h2>$ 35</h2>
+            <span class="w3-opacity">por mês</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Compre já!</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Curso Super Avançado</li>
+          <li class="w3-padding-16">HTML</li>
+          <li class="w3-padding-16">CSS</li>
+          <li class="w3-padding-16">JAVASCRIPT</li>
+          <li class="w3-padding-16">C++</li>
+          <li class="w3-padding-16">PYTHON</li>
+          <li class="w3-padding-16">SQL</li>
+          <li class="w3-padding-16">
+            <h2>$ 45</h2>
+            <span class="w3-opacity">por mês</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Compre já!</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Mantenha contato conosco</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <h2>Emails para contato</h2>
+        <h4>Débora Lopes</h2>
+        <p>debinha.lopes93@gmail.com</p>
+        <h4>Kayque Brito</h2>
+        <p>britookay2@gmail.com</p>
+        <h4>Ryan Martins</h2>
+        <p>ryanmartinsz910@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <h5>Onde estaremos</h5>
+        <p>Paulistana PI</p>
+        <p>Curral Novo PI</p>
+        <p>Serra Vermelha PI</p>
+        <p>Cariade PI</p>
+        <p>Simões PI</p>
+        <p>Teresina PI</p>
+        <p>Petrolina PE</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <h2>Telefone para contato</h2>
+        <h4>Débora lopes</h4>
+        <p>(89)99454-5955</p>
+        <h4>Kayque Brito</h4>
+        <p>(89)99466-4574</p>
+        <h4>Ryan Martins</h4>
+        <p>(89)99445-7125</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Nome</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Mensagem</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Mande uma Mensagem</button>
+    </form>
+  </div>
+
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>SOBRE</h3>
+      <p>Os cursos em geral, tem o objetivo de trazer mais facilidade e prática para você que não sabe como mexer em sites e etc.</p>
+      <p>CLIQUE EM <a href="https://www.crescersempre.org.br/informatica-para-o-mercado-de-trabalho/" target="_blank">SAIBA MAIS</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>APLICATIVO PARA CONTATO</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="Instagram_icon.png.webp" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Instagram</span><br>
+          <span><a href="https://www.instagram.com/debinhaz_/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">CLIQUE AQUI</a></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>TAGS POPULARES</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Curso</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Brasil</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Online</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">PAGO</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideias</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Programação</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Novo</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Tecnologia</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Informática</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Certificado</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Surpresa para você aliviar o estresse do dia <a href="https://www.youtube.com/watch?v=i0AjtpI81xs&pp=ygUOYmVhdXRpZnVsIGxpZmU%3D" title="AQUI" target="_blank" class="w3-hover-opacity">AQUI</a></div>
+
+</div>
+
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+body h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+    max-width: 1600px;
+    z-index: 3;
+    width: 300px;
+}
+
+h4{
+    width: 45%;
+}
